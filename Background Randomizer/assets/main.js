@@ -79,7 +79,7 @@ tags.addEventListener('input', (event) => {
 // add input event listener to api input field
 api.addEventListener('input', (event) => {
   // update configValues object with new value of API key
-  configValues['API'] = event.target.value;
+  configValues['CLIENT_ID'] = event.target.value;
 });
 
   // add input event listener to timner input field
