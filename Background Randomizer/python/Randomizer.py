@@ -33,6 +33,10 @@ def bg_set():
     """
     # loads config
     config = json.load(open(CONFIG_FILE_LOCATION, 'r'))
+    
+    # Reloads Client_id in the event it changed
+    client_id = config['CLIENT_ID']
+    client_id = "client_id=" + client_id
 
      # Check if Unsplash is enabled for image call
     if config['UNSPLASH']:
