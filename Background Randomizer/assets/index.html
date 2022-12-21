@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body class="pywebview-drag-region">
+    <div class="control-panel">
+        <button id="exit_btn">X</button>
+        <div class="title">Background Randomizer</div>
+        <hr>
+        <button class="button" id="update_bg">Change Background</button>
+        <h3 class="centered_text">Autostart Options</h3>
+        <hr>
+        <div class="checkbox-group">
+          <label class="checkbox" >General</label><input type="checkbox" class="checkbox" id="autostart">
+          <label class="checkbox" id="autostart_gui_label" >GUI</label><input type="checkbox" class="checkbox" id="autostart_gui">
+        </div>
+        <h3 class="centered_text">General Options</h3>
+        <hr>
+        <div class="checkbox-group">
+          <label class="checkbox">Unsplash</label><input type="checkbox" class="checkbox" id="unsplash">
+          <label class="checkbox">Pixilate</label><input type="checkbox" class="checkbox" id="pix">
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Tags" class="input-text" id="tags">
+          <input type="text" placeholder="API Keys" class="input-text" id="api_id">
+        </div>
+        <div class="input-group">
+          <input type="text" placeholder="Slide Show Timer in Minutes" class="input-text" id="timer"> 
+          <input type="text" placeholder="Pixiliation in pixels" class="input-text" id="pixilation_input"> 
+        </div>
+        <button class="button submit-button" id="update_settings">Update Settings</button>
+      </div>
+</body>
+</html>
